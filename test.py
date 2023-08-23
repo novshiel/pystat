@@ -1,6 +1,7 @@
 from lib.add_two import add_two
 from lib.calc_sum import calc_sum
 from lib.get_numbers_from_user import get_numbers_from_user
+from lib.calc_mean import calc_mean
 
 nums = get_numbers_from_user()
 # print(nums)
@@ -13,3 +14,4 @@ nums = get_numbers_from_user()
 # print(numbers)
 
 print('Sum of numbers: ', calc_sum(nums))
+print('Mean of numbers: ', calc_mean(nums))
